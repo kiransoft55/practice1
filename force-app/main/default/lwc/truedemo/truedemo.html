@@ -1,0 +1,20 @@
+<!-- sldsValidatorIgnore -->
+<template>
+     <lightning-card title="If - true demo" icon-name="custom:custom15">
+            <button class="slds-button" onclick={showHandler}>
+                Click me to show the text
+            </button>
+                <template if:true={showText}>
+                <h3>Hurray!! You able to see the hidden text</h3>
+                </template>
+     </lightning-card>  
+     
+     <lightning-card title="If-False demo" icon-name="custom:custom16">
+        <button class="slds-button" onclick={hideHandler}>
+            Click me to hide text
+        </button>
+            <template if:false={hideText}>
+            <h3>Hurray!! You able to see the hidden text</h3>
+            </template>
+ </lightning-card>  
+</template>

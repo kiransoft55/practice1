@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Input text Check condition" icon-name="standard:Account">
+        <lightning-input type="text" label="Enter some  text" 
+            value={inputtext} name="fname"
+            onkeyup={Handleraction}>
+        </lightning-input>
+            <template if:true={inputcheck}>
+                <h3> Hello this is salesforce</h3>
+            </template>
+    </lightning-card>
+    
+</template>
