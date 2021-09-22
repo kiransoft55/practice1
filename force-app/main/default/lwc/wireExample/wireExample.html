@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Wire Example" icon-name="custom:custom15">
+        <template for:each={data} for:item="account">
+            <p key={account.Id}>
+                {account.Name}
+            </p>
+        </template>
+    </lightning-card>
+</template>

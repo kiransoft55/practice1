@@ -1,5 +1,6 @@
 import LanguageLocaleKey from '@salesforce/schema/User.LanguageLocaleKey';
 import { LightningElement } from 'lwc';
+
 export default class TemplateLoopingForEach extends LightningElement {
 carList= ["ford",   "Toyota",  "Maruthi",   "Tata",   "Mercedes", "Force"]
 programmingList= [

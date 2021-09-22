@@ -5,5 +5,7 @@ export default class Toogledemo extends LightningElement {
     tooglehandler()
     {
         this.toogleText= !this.toogleText;
-    }
+    } 
+
+
 }
